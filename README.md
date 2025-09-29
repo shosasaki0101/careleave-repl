@@ -48,7 +48,7 @@ All rights reserved. Redistribution of raw data is not included.
 
 careleave-repl/
 - code/ # R scripts for data cleaning and analysis
-　- 00_prep.R # Data cleaning and construction of derived variables
+  - 00_prep.R # Data cleaning and construction of derived variables
 　- 01_main_lnratio_PPML.R # Main PPML and log-ratio analyses
 　- 02_eventstudy.R # Event study models
 　- 03_robustness.R # Robustness checks (donut windows, k=3/4/5)
