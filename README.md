@@ -51,7 +51,7 @@ All outputs (tables and figures) are stored in the `out/` folder.
 ## License
 **For academic demonstration only.**  
 This replication package is provided as part of a PhD application.  
-All rights reserved. Redistribution of raw data is not included.
+All rights reserved. Reuse, redistribution, or modification in any form is prohibited.
 
 ---
 
