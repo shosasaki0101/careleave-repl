@@ -26,12 +26,23 @@ Full details of all variables (definitions, sources, and constructed fields) are
 
 ---
 
+## Outputs
+
+- **Results (`out/results/`)**: CSV outputs from regression models.  
+- **Tables (`out/tables/`)**: Summaries (HTML, TeX, CSV).  
+- **Figures (`out/figures/`)**: PNG/PDF figures for national time series.  
+
+---
+
 ## Reproducibility
 Run the scripts in the following order:
 1. `code/00_prep.R` – Data preparation (creates `bpm_clean.csv`)  
 2. `code/01_main_lnratio_PPML.R` – Main analysis (PPML, additive and exclusive models)  
 3. `code/02_eventstudy.R` – Event study analysis  
-4. `code/03_robustness.R` – Robustness checks (donut exclusion, alternative k values)  
+4. `code/03_robustness.R` – Robustness checks (donut exclusion, alternative k values)
+5. `code/04_build_tables.R` – Build compact summary tables for results
+6. `05_make_figures.R` – Create minimal national ln(M/F) time series figure
+7. `06_descriptives.R` – Produce minimal descriptive statistics
 
 All outputs (tables and figures) are stored in the `out/` folder.
 
@@ -52,6 +63,9 @@ careleave-repl/
   - 01_main_lnratio_PPML.R # Main PPML and log-ratio analyses
   - 02_eventstudy.R # Event study models
   - 03_robustness.R # Robustness checks (donut windows, k=3/4/5)
+  - 04_build_tables.R # Build compact summary tables
+  - 05_make_figures.R # Minimal figure (national ln(M/F) time series)
+  - 06_descriptives.R # Minimal descriptive statistics
 - data/
   - raw/ # Instructions only (no redistribution of raw data)
     - README_raw.md
