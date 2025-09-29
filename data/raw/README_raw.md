@@ -89,10 +89,7 @@ Key for merges: pref_id × year_month (YYYYMM).
 **Reproducing the Clean Panel**
 
 From the project root:
-
-# R
-source("code/00_prep.R")   # or run the file
-# Output: out/bpm_clean.csv
+source("code/00_prep.R") 
 
 **Citation Guidance**
 
