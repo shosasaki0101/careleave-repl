@@ -41,8 +41,8 @@ Run the scripts in the following order:
 3. `code/02_eventstudy.R` – Event study analysis  
 4. `code/03_robustness.R` – Robustness checks (donut exclusion, alternative k values)
 5. `code/04_build_tables.R` – Build compact summary tables for results
-6. `05_make_figures.R` – Create minimal national ln(M/F) time series figure
-7. `06_descriptives.R` – Produce minimal descriptive statistics
+6. `code/05_make_figures.R` – Create minimal national ln(M/F) time series figure
+7. `code/06_descriptives.R` – Produce minimal descriptive statistics
 
 All outputs (tables and figures) are stored in the `out/` folder.
 
