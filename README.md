@@ -54,7 +54,7 @@ careleave-repl/
   - 03_robustness.R # Robustness checks (donut windows, k=3/4/5)
 - data/
   - raw/ # Instructions only (no redistribution of raw data)
-   - README_raw.md
+    - README_raw.md
   - derived/
   - bpm_clean.csv # Cleaned dataset sufficient for replication
 - out/ # Outputs (tables, figures, CSV results)
