@@ -1,12 +1,14 @@
 Variable Definitions (English + Japanese)
+
 A. Identifiers & Time
+
 pref_id
 
-English: Prefecture ID (1–47)
+- English: Prefecture ID (1–47)
 
-日本語: 都道府県コード（1–47）
+- 日本語: 都道府県コード（1–47）
 
-Source: Common key, consistent across all sources.
+- Source: Common key, consistent across all sources.
 
 pref_name (if present)
 
