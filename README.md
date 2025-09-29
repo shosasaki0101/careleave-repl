@@ -56,7 +56,7 @@ careleave-repl/
   - raw/ # Instructions only (no redistribution of raw data)
     - README_raw.md
   - derived/
-  - bpm_clean.csv # Cleaned dataset sufficient for replication
+    - bpm_clean.csv # Cleaned dataset sufficient for replication
 - out/ # Outputs (tables, figures, CSV results)
 - VARIABLES.md # Full description of all variables (English + 日本語)
 - README.md # Project documentation
