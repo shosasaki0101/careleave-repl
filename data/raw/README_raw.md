@@ -90,23 +90,3 @@ Key for merges: pref_id × year_month (YYYYMM).
 
 From the project root:
 source("code/00_prep.R") 
-
-**Citation Guidance**
-
-When using the data, please cite each source explicitly with:
-
-Official Japanese title (日本語の正式名)
-
-English descriptive title (意訳)
-
-URL (landing page, not deep files where possible)
-
-Access date (optional but recommended)
-
-Redistribution Policy
-
-Raw tables may have redistribution restrictions. We do not include them in this repository.
-
-The cleaned, derived panel out/bpm_clean.csv is generated locally via the script above.
-
-If you plan to share a derived dataset publicly, ensure it complies with each source’s terms and your journal/program’s policies.
