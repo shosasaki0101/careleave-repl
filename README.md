@@ -1,4 +1,4 @@
-# careleave-repl: Replication Package for Japan’s Carers’ Leave Reforms (2016–2017)
+# careleave-repl: Replication Package for Japan’s Care-Leave Reform Study (2016–2017)
 
 Author: Sho Sasaki (Email: shosasaki0101@gmail.com)
 
