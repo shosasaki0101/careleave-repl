@@ -2,7 +2,20 @@
 
 Author: Sho Sasaki (Email: shosasaki0101@gmail.com)
 
-This repository provides the replication package for my working paper on Japan’s carers’ leave reforms.  
+This repository contains code and materials to replicate the analyses reported in the working paper:
+**Income Replacement vs Flexibility: Evidence from Japan’s 2016–2017 Care-Leave Reforms on Gendered Patterns of Leave Uptake**  
+
+## Abstract of the Woking Paper
+This paper examines how different policy instruments shape the uptake of family-care leave, a policy tool of growing importance in aging societies. While parental leave has been extensively studied, family-care leave remains under-researched despite substantial cross-national variation. Japan offers a useful case: two consecutive reforms in 2016 and 2017 altered the program’s core design. The 2016 reform raised the income replacement rate, while the 2017 reform introduced greater flexibility in leave-taking arrangements.
+
+Using monthly prefecture-level administrative statistics from 2014 to 2019, I estimate event-study models and Poisson pseudo-maximum likelihood regressions with prefecture and month fixed effects. Results show that the 2016 reform reduced the male-to-female uptake ratio, indicating a relative increase in male participation, but had limited effects on the total number of recipients. In contrast, the 2017 reform produced sustained increases in both male and female uptake, while leaving the gender ratio unchanged. Robustness checks across alternative specifications and placebo tests confirm these patterns.
+
+The findings demonstrate that income replacement and flexibility operate through distinct mechanisms. The former promotes gender equality, while the latter expands overall participation. Together, they underscore the complementary roles of generosity and flexibility in care-leave policy design and the need to analyze policy instruments as differentiated levers rather than interchangeable features.
+
+---
+
+## Overview
+
 It is designed to ensure reproducibility and to demonstrate advanced quantitative research skills (PPML, event study, robustness checks) as part of my PhD application to the *Making Time* project.  
 
 The package contains:
