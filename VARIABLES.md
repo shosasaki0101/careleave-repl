@@ -1,8 +1,8 @@
 Variable Definitions (English + Japanese)
 
-A. Identifiers & Time
+## A. Identifiers & Time
 
-pref_id
+**pref_id**
 
 - English: Prefecture ID (1–47)
 
@@ -10,7 +10,7 @@ pref_id
 
 - Source: Common key, consistent across all sources.
 
-pref_name
+**pref_name**
 
 - English: Prefecture name
 
@@ -18,7 +18,7 @@ pref_name
 
 - Source: From raw compilation (not used as a key in scripts).
 
-year_month
+**year_month**
 
 - English: Year–month in YYYYMM
 
@@ -26,7 +26,7 @@ year_month
 
 - Constructed/Used for: Parsing monthly date.
 
-date
+**date**
 
 - English: First day of month (YYYY-MM-01)
 
@@ -34,19 +34,19 @@ date
 
 - Constructed as: Parsed from year_month.
 
-year
+**year**
 
 - English: Calendar year
 
 - 日本語: 年
 
-month
+**month**
 
 - English: Calendar month (1–12)
 
 - 日本語: 月（1–12）
 
-moy
+**moy**
 
 - English: Month-of-year factor ("01"–"12")
 
@@ -54,7 +54,7 @@ moy
 
 - Constructed as: factor(strftime(date, "%m")).
 
-t_index
+**t_index**
 
 - English: Time index (months since first observation)
 
@@ -62,9 +62,9 @@ t_index
 
 - Constructed as: as.integer(as.yearmon(date) - as.yearmon(min(date))).
 
-B. Outcomes (Carers’ Leave Benefits)
+## B. Outcomes (Carers’ Leave Benefits)**
 
-n_leave_m, n_leave_f
+**n_leave_m, n_leave_f**
 
 - English: Carers’ Leave Benefit Recipients (male / female)
 
@@ -74,7 +74,7 @@ n_leave_m, n_leave_f
 
 - Source: MHLW — https://www.mhlw.go.jp/toukei/list/150-1a.html
 
-w_total
+**w_total**
 
 - English: Total recipients (male + female)
 
@@ -82,18 +82,17 @@ w_total
 
 - Constructed as: pmax(n_leave_m,0) + pmax(n_leave_f,0).
 
-ln_ratio_mf
+**ln_ratio_mf**
 
 - English: Log ratio of male/female recipients
 
 - 日本語: 男性／女性受給者比の対数
 
 - Constructed as: log((pmax(n_leave_m,0)+0.5)/(pmax(n_leave_f,0)+0.5))
-(0.5 はゼロ回避のための補正)
 
-C. Controls (Levels) + Sources
+## C. Controls (Levels) + Sources
 
-u_rate
+**u_rate**
 
 - English: Unemployment rate (model estimates by prefecture)
 
@@ -103,7 +102,7 @@ u_rate
 
 - Source: e-Stat — https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200531
 
-n_ei
+**n_ei**
 
 - English: Employment Insurance insured persons
 
@@ -113,15 +112,15 @@ n_ei
 
 - Source: MHLW — https://www.mhlw.go.jp/toukei/list/150-1a.html
 
-ln_ei
+**ln_ei**
 
-- English: Log of EI insured persons
+- English: Log of Employment Insurance insured persons
 
 - 日本語: 被保険者数の対数
 
 - Constructed as: log(pmax(n_ei,1)).
 
-n_need
+**n_need**
 
 - English: Certified care-need persons (support/care levels)
 
@@ -131,7 +130,7 @@ n_need
 
 - Source: MHLW — https://www.mhlw.go.jp/topics/0103/tp0329-1.html
 
-ln_need
+**ln_need**
 
 - English: Log of certified care-need persons
 
@@ -139,7 +138,7 @@ ln_need
 
 - Constructed as: log(pmax(n_need,1)).
 
-- facility_users
+**facility_users**
 
 - English: Facility service users
 
@@ -149,7 +148,7 @@ ln_need
 
 - Source: MHLW — https://www.mhlw.go.jp/topics/0103/tp0329-1.html
 
-ln_fac
+**ln_fac**
 
 - English: Log of facility service users
 
@@ -157,7 +156,7 @@ ln_fac
 
 - Constructed as: log(pmax(facility_users,1)).
 
-oldshare75
+**oldshare75**
 
 - English: Share of population aged 75+ (75+ / total)
 
@@ -165,7 +164,7 @@ oldshare75
 
 - Constructed as: Provided or pop75 / pop.
 
-pop, pop75
+**pop, pop75**
 
 - English: Population (total) and population aged 75+
 
@@ -175,9 +174,9 @@ pop, pop75
 
 - Source: Statistics Bureau of Japan — https://www.stat.go.jp/data/jinsui/index.html
 
-D. Standardized Controls (mean 0, sd 1)
+## D. Standardized Controls (mean 0, sd 1)
 
-z_u_rate, z_ln_ei, z_ln_need, z_ln_fac, z_oldshare75
+**z_u_rate, z_ln_ei, z_ln_need, z_ln_fac, z_oldshare75**
 
 - English: Standardized versions of the above controls
 
@@ -185,7 +184,7 @@ z_u_rate, z_ln_ei, z_ln_need, z_ln_fac, z_oldshare75
 
 - Constructed as: (x - mean(x)) / sd(x) within the full panel.
 
-E. Variables created only inside analysis scripts (not in bpm_clean.csv)
+## E. Variables created only inside analysis scripts (not in bpm_clean.csv)
 
 These appear when running the analysis (not stored in the cleaned CSV):
 
@@ -201,7 +200,7 @@ These appear when running the analysis (not stored in the cleaned CSV):
 
   - Created by to_long_*() for stacked (male/female) PPML.
 
-Notes
+## Notes
 
 - All numeric fields were cleaned from raw inputs (full-width digits, commas) during preprocessing (code/00_prep.R).
 
