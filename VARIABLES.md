@@ -1,4 +1,4 @@
-Variable Definitions (English + Japanese)
+Variable Definitions (English)
 
 ## A. Identifiers & Time
 
