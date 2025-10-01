@@ -16,19 +16,19 @@ The findings demonstrate that income replacement and flexibility operate through
 
 ## Purpose of Repository
 
-It is designed to ensure reproducibility and to demonstrate advanced quantitative research skills (PPML, event study, robustness checks) as part of my PhD application to the *Making Time* project.  
+It is designed to ensure **full reproducibility** of the analyses and to showcase **advanced quantitative research skills** (PPML, event study, robustness checks) relevant for my PhD application to the _Making Time_ project.  
 
 The package contains:
-- Cleaned datasets (`data/derived/`)
-- R scripts for main analyses (`code/`)
-- Output tables and figures (`out/`)
+- **Cleaned datasets** (`data/derived/`) sufficient to replicate the analyses
+- **R scripts** (`code/`) for main analyses
+- **Output tables and figures** (`out/`) generated directly from the scripts
 
 ---
 
 ## Data
 - The raw data originate from official Japanese administrative statistics.  
 - Due to redistribution restrictions, `data/raw/` is not included.  
-- Instead, we provide:
+- Instead, I provide:
   - Instructions to obtain the raw data (see `data/raw/README_raw.md`)  
   - Cleaned derived dataset (`data/derived/bpm_clean.csv`) sufficient for replication.  
 
@@ -57,7 +57,7 @@ Run the scripts in the following order:
 6. `code/05_make_figures.R` – Create minimal national ln(M/F) time series figure
 7. `code/06_descriptives.R` – Produce minimal descriptive statistics
 
-All outputs (tables and figures) are stored in the `out/` folder.
+**All outputs (tables and figures) are stored in the `out/` folder.**
 
 ---
 
