@@ -62,7 +62,7 @@ Variable Definitions (English + Japanese)
 
 - Constructed as: as.integer(as.yearmon(date) - as.yearmon(min(date))).
 
-## B. Outcomes (Carers’ Leave Benefits)**
+## B. Outcomes (Carers’ Leave Benefits)
 
 **n_leave_m, n_leave_f**
 
