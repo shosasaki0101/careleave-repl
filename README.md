@@ -60,8 +60,7 @@ Full details of all variables (definitions, sources, and constructed fields) are
 ## License
 **For academic demonstration only.**  
 This replication package is provided as part of a PhD application.  
-All rights reserved. Reuse, redistribution, or modification in any form is prohibited.
-
+All rights reserved.
 ---
 
 ## Repository Structure
