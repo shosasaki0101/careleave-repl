@@ -61,6 +61,7 @@ Full details of all variables (definitions, sources, and constructed fields) are
 **For academic demonstration only.**  
 This replication package is provided as part of a PhD application.  
 All rights reserved.
+
 ---
 
 ## Repository Structure
