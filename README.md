@@ -12,7 +12,7 @@ This paper investigates how policy instruments influence the uptake of family-ca
 
 ## Purpose of Repository
 
-It is designed to ensure **full reproducibility** of the analyses and to showcase **advanced quantitative research skills** (PPML, event study, robustness checks) relevant for my PhD application to the _Making Time_ project.  
+It is designed to ensure **full reproducibility** of the analyses and to showcase **advanced quantitative research skills** (PPML, event study, robustness checks) relevant for my PhD application.
 
 The package contains:
 - **Cleaned datasets** (`data/derived/`) sufficient to replicate the analyses
