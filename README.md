@@ -3,7 +3,7 @@
 Author: Sho Sasaki (Email: shosasaki0101@gmail.com)
 
 This repository contains code and materials to replicate the analyses reported in the working paper:
-**_Income Replacement vs Flexibility: Evidence from Japan’s 2016–2017 Care-Leave Reforms on Gendered Patterns of Leave Uptake**  
+**_Income Replacement vs Flexibility: Evidence from Japan’s 2016–2017 Care-Leave Reforms on Gendered Patterns of Leave Uptake_**  
 
 **Abstract:**
 This paper examines how different policy instruments shape the uptake of family-care leave, a policy tool of growing importance in aging societies. While parental leave has been extensively studied, family-care leave remains under-researched despite substantial cross-national variation. Japan offers a useful case: two consecutive reforms in 2016 and 2017 altered the program’s core design. The 2016 reform raised the income replacement rate, while the 2017 reform introduced greater flexibility in leave-taking arrangements.
