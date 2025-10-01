@@ -44,7 +44,7 @@ Full details of all variables (definitions, sources, and constructed fields) are
 ---
 
 ## Reproducibility
-Run the scripts in the following order:
+**Run the scripts in the following order:**
 1. `code/00_prep.R` – Data preparation (creates `bpm_clean.csv`)  
 2. `code/01_main_lnratio_PPML.R` – Main analysis (PPML, additive and exclusive models)  
 3. `code/02_eventstudy.R` – Event study analysis  
