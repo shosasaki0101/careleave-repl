@@ -82,4 +82,4 @@ careleave-repl/
     - bpm_clean.csv # Cleaned dataset sufficient for replication
 - out/ # Outputs (tables, figures, CSV results)
 - README.md # Project documentation
-- VARIABLES.md # Full description of all variables (English + 日本語)
+- VARIABLES.md # Full description of all variables (English + Japanese)
